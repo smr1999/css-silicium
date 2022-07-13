@@ -1,0 +1,37 @@
+body{
+    font-family: tahoma;   
+}
+
+
+article {
+    text-align: justify;
+    width: 22.5%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    margin: 20px 1.25%;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 3px 3px 5px 1px gray;
+    transition: box-shadow .25s;
+    height: 150px;
+    overflow: auto;
+}
+
+article:hover{
+    box-shadow: 10px 10px 8px 1px gray;
+    cursor: pointer;
+}
+
+main:after{
+    content : " ";
+    display : block;
+    clear: both;
+}
+
+span{
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+}

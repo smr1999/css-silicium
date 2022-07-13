@@ -1,0 +1,18 @@
+/* Default state */
+.google{
+    color: black;
+}
+
+/* When hover the link */
+.google:hover{
+    color: red;
+}
+
+/* When your mouse click in link(not release the mouse) */
+.google:active{
+    color: aqua;
+}
+/* When user click the link , link will be visited and link will be in this state */
+.google:visited{
+    color: yellow;
+}

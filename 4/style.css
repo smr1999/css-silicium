@@ -1,0 +1,40 @@
+/* All span that in li and li in ol */
+ol li span{
+    background-color: rgb(202, 104, 104);
+}
+
+/* First span that in li(First child) and li in ol */
+ol li:first-child span{
+    color: blue;
+}
+
+/* Last span that in li(Last child) and li in ol */
+ol li:last-child span{
+    color: green;
+}
+
+/* nth span that in li(nth child) and li in ol */
+ol li:nth-child(4) span{
+    color: gray;
+}
+
+/* Spans that in li(odd childs) and li in ol */
+ol li:nth-child(odd) span{
+    font-family: tahoma;
+}
+
+/* Spans that in li(even childs) and li in ol */
+ol li:nth-child(even) span{
+    font-family: consolas;
+}
+
+/* Spans that in li(3n+2 childs) and li in ol */
+ol li:nth-child(3n+2) span{
+    font-size: 30px;
+}
+
+/* Spans that in li(n+7 childs) and li in ol */
+ol li:nth-child(n+7) span{
+    background-color: aqua;
+}
+

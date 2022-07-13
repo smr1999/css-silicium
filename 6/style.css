@@ -1,0 +1,16 @@
+/* Default state */
+.google{
+    background-color: black;
+    transition: background-color 0.5s;
+}
+
+/* When hover the link */
+.google:hover{
+    background-color: red;
+}
+
+/* When your mouse click in link(not release the mouse) */
+.google:active{
+    background-color: aqua;
+}
+
